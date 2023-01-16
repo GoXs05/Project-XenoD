@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 270c2bf020e465947ad030e274a78ce5, type: 3}
+  m_Name: Pistol
+  m_EditorClassIdentifier: 
+  name: Pistol
+  damage: 65
+  maxDistance: 100
+  hipfireSpread: 1
+  adsSpread: 0.3
+  isAutomatic: 0
+  isSemiAutomatic: 1
+  currentAmmo: 9
+  magSize: 10
+  totalAmmo: 98714
+  fireRate: 85
+  reloadTime: 1
+  reloading: 0
+  recoilX: -15
+  recoilY: 2.5
+  recoilZ: 0.5
+  adsRecoilX: -8
+  adsRecoilY: 1.5
+  adsRecoilZ: 0.25
+  gunRecoilX: -20
+  gunRecoilY: 5
+  gunRecoilZ: 3
+  adsGunRecoilX: -12
+  adsGunRecoilY: 3
+  adsGunRecoilZ: 2
+  gunRecoilPosX: 0
+  gunRecoilPosY: 0.1
+  gunRecoilPosZ: -0.5
+  adsGunRecoilPosX: 0
+  adsGunRecoilPosY: 0.1
+  adsGunRecoilPosZ: -0.5
+  snappiness: 6
+  returnSpeed: 3
+  gunPosSnappiness: 8
+  gunPosReturnSpeed: 5
+  magSizeFactor: 1
+  headshotmultiplierFactor: 1
+  spreadReductionFactor: 1
+  fireRateFactor: 1.5
+  weaponChargeDMGFactor: 2
